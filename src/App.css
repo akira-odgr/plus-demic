@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --main-font: "Poppins", sans-serif;
+    --primary-color: #fe6b7e;
+}
+
+@layer base {
+    .container {
+        @apply m-auto p-4 sm:p-8 lg:p-16 xl:p-20;
+    }
+}
